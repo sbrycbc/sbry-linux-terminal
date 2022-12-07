@@ -1,8 +1,10 @@
-## 
+# linux-commands
+
 - clear: löscht den inhalt des terminals
 - nano: öffnet den linux internen text editor.
 - pwd: Zeigt uns den ordner an, in dem wir uns aktuell befinden.
 - touch [Dateiname]: Erstellt eine datei.
+- touch .name : versteckte Datei erstellen. 
 - echo "[Text]": gibt einen text im terminal aus.
 - echo "[Text]]" >> [Dateiname]: speichert einen text in der angegebenen datei ab.
 - ls: zeigt den inhalt des aktuellen ordners.
@@ -25,5 +27,12 @@
 - cd [Doppelt-Tab]: sagt uns, welche möglichkeiten zur bewegung im akutellen ordner wir haben.
 - cd oder cd ~: schickt uns zurück in unser home verzeichnis.
 - cd /: schickt uns ins root directory.
-less [Dateiname]: Zeigt uns den inhalt der datei in zeile an, so das wir bei einer datei, die mehr platz weg nimmt als das terminal, wir die inhalte schritt für schritt anschauen können
+less [Dateiname]: Zeigt uns den inhalt der datei in zeile an, so das wir bei einer datei, die mehr platz weg nimmt als das terminal, wir die inhalte schritt für schritt anschauen können.
 - more [Dateiname]: Wie less, allerdings zeigt uns der more befehl an, wieviel vom dokument an der aktuellen stelle noch übrig ist.
+- cp -r : Verzeichnis kopieren.
+- cp file1 file2 file3...: mehrere Datein kopieren
+- cp file* : alles was im Verzeichniss mit file beginnt.
+- cp *file* : kopiert alles wo file drin vorkommt.
+- cp*.md : kopiert alles vom typ .md.
+- cp aa?.md : ? steh für ein belibiges Zeichen nach dem vorgegebenen.
+- 
