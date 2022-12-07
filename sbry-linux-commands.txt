@@ -1,6 +1,6 @@
 # linux-commands
 
-- clear: löscht den inhalt des terminals
+- clear: löscht den inhalt des terminals.
 - nano: öffnet den linux internen text editor.
 - pwd: Zeigt uns den ordner an, in dem wir uns aktuell befinden.
 - touch [Dateiname]: Erstellt eine datei.

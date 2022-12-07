@@ -1,21 +1,21 @@
 # linux-commands
 
-- ./ = dieses verzeichniss
-- ../ = Überverzeichniss
-- cd - = letztes verwendetes Verzeichniss
-- mv Dateiname Zielordner = move datei nach
-- rm = remove
-- rm Dateinamen* oder ? =um eine Groppe zu löschen
-- cd /Laufwerk/Directory2/Directory2 = Absoluter Pfad
-- tilde = spring zu meinem Userverzeichniss
-- ls = Verzeichnissübersicht
-- ll = longlist wie ls -l
-- ls -a = zeigt versteckte Datein an
-- ls -al = ls -l -a Kurzform
-- ^ = STRG
-- M- = ALT
-- man = gibt eine Hilfestellung zu dem gesuchten Befehl
-- cd Ordnername = geht in den Ordner
+- ./ = dieses verzeichniss.
+- ../ = Überverzeichniss.
+- cd - = letztes verwendetes Verzeichniss.
+- mv Dateiname Zielordner = move datei nach.
+- rm = remove.
+- rm Dateinamen* oder ? =um eine Groppe zu löschen.
+- cd /Laufwerk/Directory2/Directory2 = Absoluter Pfad.
+- tilde = spring zu meinem Userverzeichniss.
+- ls = Verzeichnissübersicht.
+- ll = longlist wie ls -l.
+- ls -a = zeigt versteckte Datein an.
+- ls -al = ls -l -a Kurzform.
+- ^ = STRG.
+- M- = ALT.
+- man = gibt eine Hilfestellung zu dem gesuchten Befehl.
+- cd Ordnername = geht in den Ordner.
 
 
 

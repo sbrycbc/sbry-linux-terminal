@@ -1,3 +1,3 @@
-# sbry-linux-terminal
+# sbry-linux-commands
 
 
