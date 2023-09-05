@@ -1,0 +1,17 @@
+Hier ein kleines script mit dem ihr eine express applikation initialisierst
+
+es erstellt ein node project und installiert express, body-parser und mongoose
+
+es erstellt eine .env, eine .env.template und eine .gitignore
+es erstellt eine src/index.js
+es fügt der .gitignore automatisch /node_modules und .env hinzu
+ihr müsst das komplette script einfach in einen ordner eurer wahl (also dort, wo ihr das projekt erstellen wollt) ins terminal kopieren und ausführen:
+npm init -y \
+
+        && npm install express body-parser mongoose \
+        && mkdir src \
+        && touch .gitignore .env .env.template ./src/index.js \
+        && echo "/node_modules" >> .gitignore \
+        && echo ".env" >> .gitignore \
+        && sed -i "8i \    ,\"start\":\"node ./src/index.js\"," package.json \
+        && sed -i "9i \    \"start:dev\":\"nodemon ./src/index.js\"" package.json
