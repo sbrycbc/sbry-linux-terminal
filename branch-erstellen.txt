@@ -1,0 +1,25 @@
+# Branch Erstellt
+
+
+Der folgende Befehl erstellt einen neuen Branch mit dem Ziel, an Feature/issue 009 zu arbeiten und die Backend-Benutzerauthentifizierung hinzuzufügen:
+
+```bash
+git switch -c feature/issue-009/backend-benutzer-authentifizierung-erstellen
+
+Wenn Sie einen Zweig mit dem Befehl git switch -c feature/issue-009/create-backend-... erstellen, sollte der Zweigname im Allgemeinen den Zweck dieses Zweigs widerspiegeln. Auf diese Weise können andere Entwickler und Teammitglieder verstehen, an welcher Funktion dieser Zweig arbeitet oder welches Issue er lösen soll, wenn sie den Zweignamen sehen.
+
+Ein idealer Filialname sollte die folgenden Elemente enthalten:
+
+Selbst:
+
+- Der Zweigname sollte die Hauptmerkmale des Features oder Issue widerspiegeln, an dem Sie arbeiten.
+Unitismus:
+
+- Der Zweigname muss eine einzelne Aufgabe oder Funktion enthalten. Dies erleichtert das spätere Zusammenführen.
+Erläuternd:
+
+- Der Filialname sollte eine kurze Beschreibung enthalten. Dies hilft anderen Entwicklern und Teammitgliedern, schnell zu verstehen.
+
+Dieser Name weist darauf hin, dass es einen Zweig gibt, der an der Issuenummer „Issue-009“ arbeitet und darauf abzielt, Backend-Benutzerauthentifizierungsfunktionen als Funktion hinzuzufügen.
+
+Wichtig ist, dass der Filialname zu Ihrer Arbeitsweise und Ihrem Team passt. Gleichzeitig sorgt die Konsistenz und Standardisierung der Filialnamen für die Ordnung im Projekt.

@@ -6,7 +6,7 @@
 - touch [Dateiname]: Erstellt eine datei.
 - touch .name : versteckte Datei erstellen. 
 - echo "[Text]": gibt einen text im terminal aus.
-- echo "[Text]]" >> [Dateiname]: speichert einen text in der angegebenen datei ab.
+- echo "[Text]" >> [Dateiname]: speichert einen text in der angegebenen datei ab.
 - ls: zeigt den inhalt des aktuellen ordners.
 - ls -R: zeigt den inhalt des aktuellen ordners und dessen unterordners an.
 - ls -a: zeigt uns versteckte dateien im aktuellen ordner an.
