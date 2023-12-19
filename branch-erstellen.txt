@@ -3,8 +3,8 @@
 
 Der folgende Befehl erstellt einen neuen Branch mit dem Ziel, an Feature/issue 009 zu arbeiten und die Backend-Benutzerauthentifizierung hinzuzufügen:
 
-```bash
-git switch -c feature/issue-009/backend-benutzer-authentifizierung-erstellen
+
+- git switch -c feature/issue-009/backend-benutzer-authentifizierung-erstellen
 
 Wenn Sie einen Zweig mit dem Befehl git switch -c feature/issue-009/create-backend-... erstellen, sollte der Zweigname im Allgemeinen den Zweck dieses Zweigs widerspiegeln. Auf diese Weise können andere Entwickler und Teammitglieder verstehen, an welcher Funktion dieser Zweig arbeitet oder welches Issue er lösen soll, wenn sie den Zweignamen sehen.
 
